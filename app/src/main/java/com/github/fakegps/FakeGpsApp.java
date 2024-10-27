@@ -41,6 +41,7 @@ public class FakeGpsApp extends Application {
                 if (sLiteOrm == null) {
                     sLiteOrm = LiteOrm.newSingleInstance(sAppContext, "fake_gps.db");
                     sLiteOrm.setDebugged(true);
+                    System.out.println("666");
                 }
             }
         }
